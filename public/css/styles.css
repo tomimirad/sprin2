@@ -9,20 +9,16 @@ html{
   padding: 0px;
 }
 
+
+h1{
+  text-align: center;
+}
+
 .contenedor{
   display: flex;
   justify-content: center;
 }
 
-.formularioRegister{
-  display: flex;
-  padding: 2rem;
-  margin-top: 30px;
-  width: 50%;
-  flex-direction: column;
-  border: solid black 5px;
-background-color: white;
-}
 input:focus{
   outline: none;
 }
@@ -32,41 +28,31 @@ input{
     background-color: transparent;
 }
 
+
+.formularioRegister{
+  display: flex;
+  padding: 2rem;
+  margin-top: 30px;
+  width: 50%;
+  flex-direction: column;
+  border: solid black 5px;
+  background-color: white;
+}
+
 .formularioRegister .izquierda{
   display: flex;
-  align-items: start;
+  align-items: center;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .formularioRegister .derecha{
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
   flex-direction: column;
 }
 
-
-
-h1{
-  text-align: center;
-}
-
-button{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 90px;
-  height: 45px;
-  padding-left: 7px;
-  background-color: black;
-  color: white;
-  border-radius: 6px;
-}
-
-.boton{
-  display: flex;
-  justify-content: center;
-}
 
 .formularioLogin{
   display: flex;
@@ -74,8 +60,17 @@ button{
   flex-direction: column;
   border: solid 2px;
   background-color: white;
+  width: 47vw;
+  height: 40vh;
+  margin-top: 50px;
 }
 
+.formularioLogin .izquierda{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  flex-direction: column;
+}
 
 .formularioLogin .derecha{
     display: flex;
@@ -89,20 +84,44 @@ text-align: center;
 }
 .abajo{
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
 }
+
+.medio{
+  display: flex;
+  justify-content: space-around;
+  height: 24vh;
+}
+
+.formularioRegister button{
+  width: 90px;
+  height: 30px;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
 .formularioLogin button{
-  padding: 20px;
-  margin: 5px;
+  justify-content: center;
+    padding: 0px;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    margin-bottom: 28px;
+}
+
+ button{
+  display: flex;
+  padding-left: 7px;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
 }
 
 
 img{
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 120px;
 }
 
-.logo{
-  display: flex;
-  justify-content: end;
-}
