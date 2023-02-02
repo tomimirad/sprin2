@@ -84,11 +84,13 @@ button{
   align-items: flex-end;
 }
 
-.titulo{
-  display: flex;
-  justify-content: center;
+.arriba{
+text-align: center;
 }
-
+.abajo{
+  display: flex;
+  flex-direction: row;
+}
 .formularioLogin button{
   padding: 20px;
   margin: 5px;
