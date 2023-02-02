@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Nunito;
+    src: url(../fonts/Nunito-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: "Nunito";
+}
+
+.header{
+    background-color:darkslateblue;
+    width: 100%;
+    height: 130px;
+    border-bottom: 3px solid black;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.categorias-master{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.categorias-master img {
+    width: 450px;
+    margin: 40px;
+    border: 2px solid black;
+}
+
+.subcategorias{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.subcategorias img{
+    width: 220px;
+    margin: 15px 25px;
+    border: 2px solid black;
+}
