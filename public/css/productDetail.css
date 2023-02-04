@@ -2,3 +2,66 @@
     display : flex;
     flex-direction: column;
     }
+    .infoproducto{
+        display: flex;
+        flex-direction: row;
+        margin: 30px 15px 100px 15px;
+    
+    }
+    .derecha{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+width: 50vw;
+    }
+    .izquierda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 3vw;
+        width: 50vw;
+
+    }
+    .izquierda .botom{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        width: 200px;
+        height: 30px;
+    }
+    .izquierda .botom:hover{
+        background-color: #738496;
+        cursor: pointer;
+        
+    }
+    span{
+        -webkit-user-select: none;
+    }
+
+    .marginbottom{
+        margin-bottom: 4vh;
+    }
+
+    .derecha img{
+        width: 45vw;
+    }
+
+    .slider{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .rectangulo{
+        width: 90vw;
+        height: 300px;
+        background-color: black;
+        border-radius: 15px;
+        color: white;
+    }
