@@ -5,7 +5,7 @@ body{
 
 .contenedor{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .tarjeta{
@@ -49,10 +49,25 @@ img{
 
 .tarjeta-derecha span{
   text-align: center;
+  margin: 10px;
 }
 
+.arriba{
+  display: flex;
+  justify-content: space-between;
+}
 
-.cantidad-producto{
+.abajo{
+  display: flex;
+  justify-content: center;
+}
+
+.abajo button{
+  color: white;
+    background-color: black;
+    height: 30px;
+}
+.cantida-producto{
   margin: 10px;
   width: 20px;
   border: solid 2px;
@@ -67,6 +82,12 @@ img{
     border-radius: 20px;
     flex-direction: column;
     align-items: center;
+    height: 300px;
+    margin: auto;
+}
+
+.logo{
+  display: flex;
 }
 
 .derecha-abajo{
@@ -76,5 +97,5 @@ img{
 .derecha-abajo button{
   color: white;
     background-color: black;
-    height: 25px;
+    height: 30px;
 }
