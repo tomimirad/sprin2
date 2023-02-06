@@ -1,6 +1,5 @@
 body{
   box-sizing: border-box;
-    background-color: grey;
 }
 
 .contenedor{
@@ -10,8 +9,7 @@ body{
 
 .tarjeta{
   display: flex;
-    width: 40vw;
-    height: 18vh;
+    width: 30vw;
     background-color: white;
     justify-content: space-between;
     margin: 20px;
@@ -27,11 +25,12 @@ body{
 
 .imagenProducto{
   margin-right: 25px;
+  height: 20px;
 }
 
 
 img{
-  width: 120%;
+    width: 120%;
     height: 113px;
 }
 
@@ -60,12 +59,13 @@ img{
 .abajo{
   display: flex;
   justify-content: center;
+margin-top: 20px;
 }
 
 .abajo button{
   color: white;
     background-color: black;
-    height: 30px;
+    height: 40px;
 }
 .cantida-producto{
   margin: 10px;

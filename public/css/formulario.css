@@ -1,7 +1,7 @@
 html{
   margin: auto;
   padding: 0;
-  background-color: grey;
+  
 }
 
 *{
@@ -33,9 +33,9 @@ input{
   display: flex;
   padding: 2rem;
   margin-top: 30px;
-  width: 50%;
+  width: 30%;
   flex-direction: column;
-  border: solid black 5px;
+  border: solid black 3px;
   background-color: white;
 }
 
@@ -60,7 +60,7 @@ input{
   flex-direction: column;
   border: solid 2px;
   background-color: white;
-  width: 47vw;
+  width: 36vw;
   margin-top: 50px;
 }
 
@@ -96,6 +96,7 @@ text-align: center;
 .formularioRegister button{
   width: 90px;
   height: 30px;
+  cursor: pointer;
   padding: 0px;
   justify-content: center;
   align-items: center;
@@ -107,6 +108,7 @@ text-align: center;
     align-items: center;
     width: 90px;
     height: 30px;
+    cursor: pointer;
     margin-bottom: 28px;
 }
 
