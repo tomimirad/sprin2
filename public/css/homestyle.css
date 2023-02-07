@@ -7,6 +7,10 @@
     font-family: "Nunito";
 }
 
+body{
+    background-color: #f1f7ff;
+}
+
 .header{
     background-color:darkslateblue;
     width: 100%;
@@ -36,7 +40,7 @@
 .categorias-master img {
     width: 450px;
     margin: 40px;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .subcategorias{
@@ -49,5 +53,88 @@
 .subcategorias img{
     width: 220px;
     margin: 15px 25px;
-    border: 2px solid black;
+    border: 1px solid black;
+}
+
+.produc-recom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    height: 420px;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.flecha{
+    margin: 10px;
+}
+
+.product{
+    position: relative;
+    width: 300px;
+    height: 373px;
+    background-color: #dcdcdc;
+    margin: 10px 0px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.arriba{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+
+.img-prod img{
+    height: 220px;
+    width: 220px;
+    margin-top: 6px;
+}
+
+.abajo{
+    background-color: #ffffff;
+    margin: 4px;
+}
+
+.descrip-prod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descrip-prod p{
+    margin: 0;
+}
+
+.descrip-prod .texto{
+    font-size: 23px;
+}
+
+.descrip-prod .cuotas{
+    font-size: 10px;
+}
+
+.descrip-prod .disc{
+    position: absolute;
+    top: 200px;
+    right: 12px;
+    font-size: 20px;
+    color: #1cb521;
+}
+
+.abajo .bot-carrito{
+    display: flex;
+    justify-content: center;
+}
+
+.abajo .bot-carrito .boton{
+    border-radius: 10px;
+    background-color: #b4c4db;
+    padding: 5px;
+    margin: 8px;
+    font-size: 15px;
 }
