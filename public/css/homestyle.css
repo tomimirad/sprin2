@@ -138,3 +138,11 @@ body{
     margin: 8px;
     font-size: 15px;
 }
+
+.sponsors img{
+    animation: sponsorsMov 50s infinite;
+}
+
+@keyframes sponsorsMov{
+    50% { transform: translateX(-1350px);}
+}
