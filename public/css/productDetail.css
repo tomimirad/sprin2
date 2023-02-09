@@ -78,3 +78,25 @@ width: 50vw;
         }
 
     }
+    @media (max-width: 425px){
+
+        .infoproducto{
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .izquierda{
+            width: 80vw;
+        }
+        .descripcion .marginbottom{
+            text-align: center;
+        }
+        .derecha img{
+            width: 90vw;
+        }
+        .descripcion p{
+            font-size: 15px;
+        }
+        .titulo h1{
+            font-size: 25px;
+        }
+    }
