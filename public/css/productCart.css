@@ -157,3 +157,70 @@ img{
 button{
   cursor: pointer;
 }
+
+
+@media (max-width: 769px) {
+
+
+  .derecha{
+    width: 90vw;
+    height: 30vh;
+  }
+  .tarjeta{
+    width: 90vw;
+  }
+  .derecha-arriba{
+    display: none;
+  }
+  .arriba{
+    flex-direction: column;
+  }
+
+  .derecha .derecha-abajo{
+    width:85vw ;
+  }
+
+  .derecha-abajo p{
+    font-size: 30px;
+  }
+
+  .derecha-abajo button{
+    height: 6vh;
+    width: 50vw;
+  }
+  .derecha-abajo .boton{
+    border:none
+  }
+
+  .abajo{
+    justify-content: flex-start;
+    margin: 0px 0px 20px 10px;
+  }
+  .detalles button{
+    width: 10vw;
+    height: 4vh;
+  }
+
+  .tarjeta-derecha{
+    width: 20vw;
+  }
+}
+
+@media (max-width:425px){
+  .detalles button{
+    width: 15vw;
+    height: 3vh;
+  }
+  
+  .detalles p{
+    font-size: 20px;
+  }
+
+  .tarjeta-derecha{
+    width: 25vw;
+  }
+
+  .tarjeta{
+    width: 95vw;
+  }
+}
