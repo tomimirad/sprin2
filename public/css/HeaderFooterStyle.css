@@ -29,15 +29,48 @@ header .cuerpo .selectores .der h1{
     font-size: 20px;
     margin-left: 70px;
 }
-header .cuerpo .selectores .izq ul {
-  display: flex;
-    
-}
 header .cuerpo .selectores .der h1 i{
     margin-left: 10px;
 }
+.menu-horizontal{
+    display: flex;
+    list-style: none;
+}
+.menu-vertical{
+    position: absolute;
+    list-style: none;
+    display: none;
+    width: 150px;
+    padding-top: 8px;
+}
+.menu-vertical li ul li{
+    padding-top: 4px;
+    margin: 5px;
+}
+.menu-vertical li ul {
+    position: absolute;
+    padding-left: 240px;
+    top: 8px;
+    display: none;
+}
+.menu-vertical li:hover > ul{
+    display: block;
+    position: absolute;
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li{
+    border: 2px solid black;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 12px 0px 12px 0px;
+    display: flex;
+    justify-content: center;
+}
 .contacto{
-    margin-left: 62px;
+  margin-left: 6vw;
 }
 .selectores{
     display: flex;
@@ -47,7 +80,6 @@ header .cuerpo .selectores .der h1 i{
 .flechita{
     color: black;
     margin-left: 10px;
-    display: flex;
     align-items: center;
 }
 .logoheader{
@@ -125,6 +157,7 @@ footer .grandpa .madre div div h1{
     margin-top: 9px;
     align-items: baseline;
     justify-content: center;
+    border-top: 1px solid black
 }
 footer .grandpa .madre div div i{
     margin-right: 5px;
