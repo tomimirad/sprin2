@@ -126,3 +126,31 @@ img{
   height: 120px;
 }
 
+
+@media (max-width:768px){
+  .formularioRegister{
+    width: 70%;
+    margin-top: 150px;
+  }
+
+  .formularioLogin{
+    width: 80vw;
+  }
+}
+
+@media (max-width:425px){
+  .formularioRegister{
+    width: 140%;
+    padding: 0rem;
+    margin-top: 150px;
+  }
+
+  .medio{
+    width: 98vw;
+  }
+
+  .formularioLogin{
+    width: 80vw;
+  }
+}
+
