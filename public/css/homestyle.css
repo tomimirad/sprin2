@@ -143,6 +143,11 @@ body{
     padding: 5px;
     margin: 8px;
     font-size: 15px;
+    transition: background-color 500ms;
+}
+
+.abajo .bot-carrito .boton:hover{
+    background-color: #8998ab;
 }
 
 .sponsors{
