@@ -8,10 +8,12 @@
 }
 
 body{
+    margin: 0;
     background-color: #f1f7ff;
 }
 
 a{
+    display:contents;
     text-decoration: none;
     color: #000000;
 }
