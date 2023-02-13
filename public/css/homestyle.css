@@ -11,6 +11,16 @@ body{
     background-color: #f1f7ff;
 }
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
 .header{
     background-color:darkslateblue;
     width: 100%;
