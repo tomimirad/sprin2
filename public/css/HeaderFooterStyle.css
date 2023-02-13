@@ -97,6 +97,9 @@ border-radius: 50%;
     margin-right: 34px;
     
 }
+.selectores .der a{
+    text-decoration: none;
+}
 /* Aqui finaliza el Header */
 
 /* Aqui empieza el Footer */
