@@ -37,10 +37,12 @@ body{
 }
 
 
-img{
+.tarjeta img{
     width: 100%;
 }
-
+.derecha img{
+  width: 100%;
+}
 .detalles{
   display: flex;
   flex-direction: column;
