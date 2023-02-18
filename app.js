@@ -10,7 +10,7 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => res.sendFile(path.resolve('./views/home.html')));
 
-app.get('/headerfooter', (req, res) => res.sendFile(path.resolve('./views/HeaderFooter.html')));
+app.get('/header', (req, res) => res.sendFile(path.resolve('./views/header.html')));
 
 app.get('/login', (req, res) => res.sendFile(path.resolve('./views/login.html')))
 
